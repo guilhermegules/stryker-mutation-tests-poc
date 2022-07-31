@@ -6,7 +6,14 @@ const Counter = () => {
   return (
     <div>
       <button
-        onClick={() => setCounter((previousCounter) => previousCounter + 1)}
+        onClick={() => {
+          if (counter > 10) {
+            setCounter(0);
+            return;
+          }
+
+          setCounter((previousCounter) => previousCounter + 1);
+        }}
       >
         +
       </button>
