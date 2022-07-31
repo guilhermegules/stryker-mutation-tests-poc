@@ -14,11 +14,11 @@ Mutation tests have some advantages, like:
 
 - Identification of weak or flaky tests in our code
 - High level of error detection
-- The mutation score can give an idea of how useful their tests suite are
+- The mutation score can give an idea of how useful our test suites are
 
 Some disadvantages include:
 
-- The large number of mutants reports on a test suit can confuse the user when read the report
+- The large number of mutants reports on a test suite can confuse the user when read the report
 - With a large number of mutants being tested, mutation testing can be time-consuming and pricey
 
 ## Docs
